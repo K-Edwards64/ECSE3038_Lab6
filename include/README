@@ -1,0 +1,11 @@
+# Code Summary
+1. The class method for the HTTPClient library: http.addheader was used to add an API key as a header for the Endpoint url. This functions as an additional method of user authentication. It was also used to specify the content type for the put function
+
+2. An ADC pin was used to read the analog output of the temperature sensor.
+
+3. The jsondocument function was used to extract and convert the string received from the API to a json object. This was then seperated into two seperate lines and printed on the LCD.
+
+4. A GET function was used to receive the status of the light from the API and a PUT function was used to transmit the temperature value taken from the sensor and a response was received.
+
+# Purpose of Code
+This code serves to familiarizes students experienced in using an esp32 to consume an API with integrating that ability with circuit design.
