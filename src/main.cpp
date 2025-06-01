@@ -33,7 +33,7 @@ void loop()
 {
     if (WiFi.status() == WL_CONNECTED);
     {
-      
+      //section for receiving light status
       String path_light = "/api/light";
       HTTPClient http;
       http.begin(ENDPOINT + path_light);
@@ -78,7 +78,7 @@ void loop()
       }
       
 
-    /////
+    ///section for temperature sending
 
     String path_temp = "/api/temp";
     http.begin(ENDPOINT + path_temp);
